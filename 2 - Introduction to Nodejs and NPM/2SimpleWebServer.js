@@ -2,6 +2,7 @@ const http = require('http');
 
 //create a server
  const server=http.createServer((req, res) => {
+  //this is how sending plain text response.
    res.end('Hello from the server!');
  })
 
